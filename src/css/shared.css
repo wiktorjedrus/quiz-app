@@ -1,0 +1,25 @@
+* {
+	box-sizing: border-box;
+}
+
+:root {
+	--main-color: #3e92cc;
+	--secondary-color: #2a628f;
+
+	--main-cancel-color: #fa0606;
+	--secondary-cancel-color: #891818;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	font-family: "Open Sans";
+	height: 100%;
+}
+
+main {
+	height: 100%;
+}

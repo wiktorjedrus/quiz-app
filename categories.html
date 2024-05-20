@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Categories</title>
+		<link
+			rel="shortcut icon"
+			href="src/img/favicon.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="src/css/shared.css" />
+		<link rel="stylesheet" href="src/css/categories.css" />
+		<script type="module" defer src="src/js/controller.js"></script>
+	</head>
+	<body>
+		<div class="modal">
+			<h2>Design circle is the best</h2>
+			<article class="modal__article">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+				Phasellus sed leo arcu. Nullam et tortor luctus, finibus lectus
+				id, lobortis dui. Etiam facilisis odio lectus. Vivamus ut ipsum
+				quam. Aenean vel tortor bibendum, scelerisque ligula eu,
+				convallis erat. Maecenas varius diam magna, et fringilla nibh
+				viverra sed. Curabitur sit amet felis mauris. Aliquam erat
+				volutpat. Quisque id ex rutrum, lobortis nisi nec, aliquam nisi.
+				Pellentesque leo tortor, aliquam id justo ac, vulputate viverra
+				diam.
+			</article>
+			<div>
+				<button class="modal__btn--continue">CONTINUE</button>
+				<button class="modal__btn--cancel">CANCEL</button>
+			</div>
+		</div>
+		<main>
+			<h1 class="main-category__title">Choose your category!</h1>
+			<section class="categories">
+				<div
+					class="category__item category__item--linux"
+					data-text="Linux"
+				>
+					<button
+						class="category__item--btn"
+						data-category="Linux"
+						data-tag="Linux"
+					>
+						Choose
+					</button>
+				</div>
+				<div
+					class="category__item category__item--docker"
+					data-text="Docker"
+				>
+					<button
+						class="category__item--btn"
+						data-category="Docker"
+						data-tag="Docker"
+					>
+						Choose
+					</button>
+				</div>
+				<div class="category__item category__item--cms" data-text="CMS">
+					<button
+						class="category__item--btn"
+						data-category="CMS"
+						data-tag="WordPress"
+					>
+						Choose
+					</button>
+				</div>
+				<div
+					class="category__item category__item--devops"
+					data-text="DevOps"
+				>
+					<button
+						class="category__item--btn"
+						data-category="DevOps"
+						data-tag="DevOps"
+					>
+						Choose
+					</button>
+				</div>
+				<div
+					class="category__item category__item--bash"
+					data-text="Bash"
+				>
+					<button
+						class="category__item--btn"
+						data-category="bash"
+						data-tag="BASH"
+					>
+						Choose
+					</button>
+				</div>
+				<div
+					class="category__item category__item--sql"
+					data-text="MySQL"
+				>
+					<button
+						class="category__item--btn"
+						data-category="SQL"
+						data-tag="MySQL"
+					>
+						Choose
+					</button>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>

@@ -1,0 +1,12 @@
+{
+	"name": "quiz-app",
+	"version": "1.0.0",
+	"scripts": {
+		"start": "parcel index.html quiz.html categories.html score.html",
+		"build": "parcel build index.html quiz.html categories.html score.html"
+	},
+	"devDependencies": {
+		"parcel": "^2.12.0"
+	},
+	"dependencies": {}
+}
