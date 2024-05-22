@@ -2,7 +2,7 @@
 	"name": "quiz-app",
 	"version": "1.0.0",
 	"scripts": {
-		"start": "parcel index.html quiz.html categories.html score.html",
+		"start": "parcel index.html quiz.html categories.html score.html --https",
 		"build": "parcel build index.html quiz.html categories.html score.html"
 	},
 	"devDependencies": {

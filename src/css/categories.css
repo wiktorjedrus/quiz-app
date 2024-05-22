@@ -173,3 +173,38 @@ main {
 .category__item--sql {
 	background-image: url("../img/sql.png");
 }
+
+.backdrop {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	width: 100vw;
+	height: 100vh;
+	background: rgba(0, 0, 0, 0.5);
+}
+
+.spinner {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 101;
+	text-align: center;
+}
+
+.spinner svg {
+	height: 6rem;
+	width: 6rem;
+	fill: var(--main-color);
+	animation: rotate 2s infinite linear;
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

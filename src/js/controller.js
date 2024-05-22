@@ -45,6 +45,9 @@ class Controller {
 	}
 
 	handleContinue(category, tag) {
+		this.handleCancel();
+		this.view.showSpinner();
+
 		fetchCategoryQuestions(category, tag).then(questions => {
 			saveQuestionsToLocalStorage(questions);
 			window.location.href = "quiz.html";
